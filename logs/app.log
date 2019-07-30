@@ -1,0 +1,22 @@
+[INFO]: 13-16-19 12:16:46 771 [main] org.springframework.boot.StartupInfoLogger 50 logStarting Starting SpringBootDataJpawithOneToManyApplication on Rituraj-PC with PID 1880 (D:\Spring-boot-mvc\SpringBootDataJpawithOneToMany\target\classes started by admin in D:\Spring-boot-mvc\SpringBootDataJpawithOneToMany) 
+[INFO]: 13-16-19 12:16:46 835 [main] org.springframework.boot.SpringApplication 646 logStartupProfileInfo No active profile set, falling back to default profiles: default 
+[INFO]: 13-16-19 12:16:48 666 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate 126 registerRepositoriesIn Bootstrapping Spring Data repositories in DEFAULT mode. 
+[INFO]: 13-16-19 12:16:48 892 [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate 182 registerRepositoriesIn Finished Spring Data repository scanning in 196ms. Found 1 repository interfaces. 
+[INFO]: 13-16-19 12:16:50 334 [main] com.zaxxer.hikari.HikariDataSource 110 getConnection HikariPool-1 - Starting... 
+[INFO]: 13-16-19 12:16:50 833 [main] com.zaxxer.hikari.HikariDataSource 123 getConnection HikariPool-1 - Start completed. 
+[INFO]: 13-16-19 12:16:50 964 [main] org.hibernate.jpa.internal.util.LogHelper 31 logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...] 
+[INFO]: 13-16-19 12:16:52 140 [main] org.hibernate.Version 46 logVersion HHH000412: Hibernate Core {5.3.10.Final} 
+[INFO]: 13-16-19 12:16:52 155 [main] org.hibernate.cfg.Environment 213 <clinit> HHH000206: hibernate.properties not found 
+[INFO]: 13-16-19 12:16:52 587 [main] org.hibernate.annotations.common.reflection.java.JavaReflectionManager 49 <clinit> HCANN000001: Hibernate Commons Annotations {5.0.4.Final} 
+[INFO]: 13-16-19 12:16:52 972 [main] org.hibernate.dialect.Dialect 157 <init> HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect 
+[INFO]: 13-16-19 12:16:54 961 [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 415 buildNativeEntityManagerFactory Initialized JPA EntityManagerFactory for persistence unit 'default' 
+[INFO]: 13-16-19 12:16:55 995 [main] org.springframework.boot.StartupInfoLogger 59 logStarted Started SpringBootDataJpawithOneToManyApplication in 10.335 seconds (JVM running for 13.782) 
+[INFO]: 13-16-19 12:16:56 004 [main] com.st.runner.AppRunner 28 run app runnner start 
+[INFO]: 13-16-19 12:16:56 006 [main] com.st.runner.AppRunner 34 run Item are created 
+[INFO]: 13-16-19 12:16:56 023 [main] com.st.runner.AppRunner 37 run item Inserted 
+[INFO]: 13-16-19 12:16:56 409 [main] com.st.runner.AppRunner 40 run Customer saved also item 
+[INFO]: 13-16-19 12:16:56 421 [Thread-3] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean 597 destroy Closing JPA EntityManagerFactory for persistence unit 'default' 
+[INFO]: 13-16-19 12:16:56 432 [Thread-3] com.zaxxer.hikari.HikariDataSource 350 close HikariPool-1 - Shutdown initiated... 
+[INFO]: 13-16-19 12:16:56 454 [Thread-3] com.zaxxer.hikari.HikariDataSource 352 close HikariPool-1 - Shutdown completed. 
